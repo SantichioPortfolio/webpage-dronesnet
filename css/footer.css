@@ -1,0 +1,51 @@
+footer {
+    width: 980px;
+    height: calc(46px + 96px + 26px);
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    position: relative;
+}
+
+/* Drones container */
+
+.footer__container {
+    width: calc(980px - 140px);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Content container */
+
+.footer__content {
+    background-color: var(--primary-color);
+    height: 96px;
+    padding-right: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__content > p {
+    font-family: var(--font-tahoma);
+    color: var(--background-color);
+    margin-left: 30px;
+}
+
+.footer__content > img {
+    margin-left: 50px;
+}
+
+/* Footer bottom */
+
+.footer__bottom {
+    background-color: var(--second-color);
+    height: 26px;
+}
+
+/* Prof img */
+
+footer > img {
+    height: calc(46px + 96px + 26px);
+    position: absolute;
+    right: 0;
+}
