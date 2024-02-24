@@ -1,11 +1,13 @@
 @import url(./reset.css);
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./main.css);
 
 :root {
     --primary-color: #1b8e99;
     --primary-contrast-color: #92c9ce;
     --second-color: #660000;
+    --second-contrast-color: #66000070;
     --background-color: white;
     --font-arial: Arial, Helvetica, sans-serif;
     --font-tahoma: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
